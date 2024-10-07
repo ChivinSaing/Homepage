@@ -12,63 +12,6 @@
 </head>
 
 <body>
-  <!-- <nav class="">
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-      <div class="relative flex h-16 items-center justify-between">
-        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-          <button type="button"
-            class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-            aria-controls="mobile-menu" aria-expanded="false">
-            <span class="absolute -inset-0.5"></span>
-            <span class="sr-only">Open main menu</span>
-            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-              aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-              aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex flex-shrink-0 items-center">
-            <img class="h-9 w-auto" src="img/logoakilab.png" alt="Your Company">
-          </div>
-          <div class="hidden sm:ml-6 sm:block m-10">
-            <div class="flex space-x-4 px-5">
-              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black ">Home</a>
-              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black ">About</a>
-              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black ">Video</a>
-              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black ">Product</a>
-              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black ">Follows</a>
-            </div>
-          </div>
-        </div>
-        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          <button type="button"
-            class="relative rounded-full bg-blue-600 p-2 text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-20">
-            Contant Us
-          </button>
-          <button type="button"
-            class="relative rounded-full p-2 text-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-20">
-            Search
-          </button>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="sm:hidden" id="mobile-menu">
-      <div class="space-y-1 px-2 pb-3 pt-2">
-        <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white">Home</a>
-        <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white">About</a>
-        <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white">Video</a>
-        <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white">Product</a>
-        <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white">Follows</a>
-      </div>
-    </div>
-  </nav> -->
     <header class="bg-[#ffffff] shadow-md fixed w-full top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
           <div class="text-lg font-bold text-blue-600">Akilabs Inc.</div>
@@ -91,15 +34,17 @@
           </nav>
         </div>
   </header>
-
   <!-- Section 1 -->
   <section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
-      <div data-aos="fade-up"
-          data-aos-duration="3000">
-          <div class="lg:w-4/5 mx-auto flex flex-wrap">
-          <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-            src="img/meeting1-removebg-preview.png">
+      <!-- <div> -->
+        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+          <div class="lg:w-1/2 w-full"  data-aos="fade-up"
+              data-aos-duration="3000">
+              <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
+              src="img/meeting1-removebg-preview.png">
+          </div>
+          
           <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Innovate & Tranform</h1>
             <h6 class="text-blue-500  title-font font-normal mb-1">Your Business</h6>
@@ -111,10 +56,9 @@
             </p>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </section>
-
   <!-- Section 2 -->
   <section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 mx-auto">
@@ -128,8 +72,10 @@
             seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean.
           </p>
         </div>
-        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+        <div class="lg:w-1/2 w-full" data-aos="fade-down-left">
+          <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
           src="img/company.jpg">
+        </div>
       </div>
     </div>
   </section>
@@ -277,8 +223,10 @@
         </p>
       </div>
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="img/webdevelopment.png">
+        <div class="lg:w-1/2 w-full" data-aos="zoom-out-right">
+          <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
+          src="img/webdevelopment.png" >
+        </div>
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Website Development</h1>
           <h6 class="title-font font-normal mb-1">We provide Development service of website of landing page for client
@@ -390,8 +338,10 @@
             </div>
           </div>
         </div>
-        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-          src="img/websystem.png">
+        <div data-aos="zoom-out-left" class="lg:w-1/2 w-full">
+            <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
+            src="img/websystem.png">
+        </div>
       </div>
     </div>
   </section>
@@ -400,8 +350,12 @@
   <section class="text-gray-600 body-font overflow-hidden">
     <div class="container  mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+        <div class="lg:w-1/2 w-full"data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
+          <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
           src="img/webdevelopment.png">
+        </div>
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Online Service</h1>
           <h6 class="title-font font-normal mb-1">
@@ -464,7 +418,7 @@
   </section>
 
   <footer class="body-font overflow-hidden">
-    <div class="container mx-auto flex">
+    <div class="container px-5 mx-auto flex">
       <div class="lg:w-4/5 mx-auto">
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-3">Contant Us</h1>

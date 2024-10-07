@@ -5,17 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href=".././output.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
-  <nav class="">
+  <!-- <nav class="">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-          <!-- Mobile menu button-->
           <button type="button"
             class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             aria-controls="mobile-menu" aria-expanded="false">
@@ -59,7 +59,6 @@
       </div>
     </div>
 
-    <!-- Mobile menu, show/hide based on menu state. -->
     <div class="sm:hidden" id="mobile-menu">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white">Home</a>
@@ -69,31 +68,56 @@
         <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white">Follows</a>
       </div>
     </div>
-  </nav>
+  </nav> -->
+    <header class="bg-[#ffffff] shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+          <div class="text-lg font-bold text-blue-600">Akilabs Inc.</div>
+          <nav class="flex space-x-6">
+            <div class="md:hidden">
+              <button id="menu-btn" class="text-blue-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+              </button>
+            </div>
+            <div id="menu-links" class="hidden flex md:flex flex-col md:flex-row md:space-x-6 md:items-center md:static absolute top-16 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-lg md:shadow-none md:p-0 p-6">
+              <a href="#" class="text-gray-600 hover:text-blue-600">Home</a>
+              <a href="#" class="text-gray-600 hover:text-blue-600">About</a>
+              <a href="#" class="text-gray-600 hover:text-blue-600">Services</a>
+              <a href="#" class="text-gray-600 hover:text-blue-600">Products</a>
+              <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
+              <a href="#" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-500">Contact Us</a>
+            </div>
+          </nav>
+        </div>
+  </header>
+
   <!-- Section 1 -->
   <section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
-      <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-          src="img/meeting1-removebg-preview.png">
-        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-          <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Innovate & Tranform</h1>
-          <h6 class="text-blue-500  title-font font-normal mb-1">Your Business</h6>
-          <p class="leading-relaxed">
-            Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy
-            chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn.
-            Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over,
-            neutra jean shorts keytar banjo tattooed umami cardigan.
-          </p>
+      <div data-aos="fade-up"
+          data-aos-duration="3000">
+          <div class="lg:w-4/5 mx-auto flex flex-wrap">
+          <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+            src="img/meeting1-removebg-preview.png">
+          <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Innovate & Tranform</h1>
+            <h6 class="text-blue-500  title-font font-normal mb-1">Your Business</h6>
+            <p class="leading-relaxed">
+              Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy
+              chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn.
+              Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over,
+              neutra jean shorts keytar banjo tattooed umami cardigan.
+            </p>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   </section>
 
   <!-- Section 2 -->
   <section class="text-gray-600 body-font overflow-hidden">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
         <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-4">About Akilab Inc.</h1>
@@ -112,7 +136,7 @@
 
   <!-- Section 3 -->
   <section class="text-gray-600 body-font">
-    <div class="container px-5 mx-auto">
+    <div class="container px-5 py-10 mx-auto">
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
         <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div
@@ -172,7 +196,7 @@
 
   <!-- Section 4 -->
   <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-5 mx-auto">
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
         <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div
@@ -230,31 +254,31 @@
 
   <!-- Section 5 -->
   <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="text-center mb-20">
-        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-500 mb-4">Massage from Director
-        </h1>
+    <div class="container px-5 mx-auto">
+      <div class="text-center mb-5">
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-500 mb-4">Massage from Director</h1>
         <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           " Lorem ipsum dolor sit amet, consectetur
           adipisicing elit. Non provident quam inventore tenetur aliquam velit pariatur
           suscipit explicabo, "
         </p>
       </div>
-      <div class="text-center mb-20">
-        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-500 mb-4">Our Service</h1>
-        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          Web Solution Company
-        </p>
-      </div>
+     
     </div>
   </section>
 
   <!-- Section 6 -->
-  <section class="text-gray-600 body-font overflow-hidden">
-    <div class="container px-5 py-24 mx-auto">
+  <section class="text-gray-600 py-10 body-font overflow-hidden">
+    <div class="container px-5 mx-auto">
+    <div class="text-center mb-5">
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-500 ">Our Service</h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          Web Solution Company
+        </p>
+      </div>
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
         <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-          src="img/webdevelopment.png">
+              src="img/webdevelopment.png">
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Website Development</h1>
           <h6 class="title-font font-normal mb-1">We provide Development service of website of landing page for client
@@ -302,7 +326,7 @@
 
   <!-- Section 7 -->
   <section class="text-gray-600  overflow-hidden">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
         <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-4">Web System Development</h1>
@@ -374,7 +398,7 @@
 
   <!-- Section 8 -->
   <section class="text-gray-600 body-font overflow-hidden">
-    <div class="container px-5 py-10 mx-auto">
+    <div class="container  mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
         <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
           src="img/webdevelopment.png">
@@ -443,30 +467,36 @@
     <div class="container mx-auto flex">
       <div class="lg:w-4/5 mx-auto">
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-          <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Contant Us</h1>
-          <div class="flex">
-            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-              width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M7.978 4a2.553 2.553 0 0 0-1.926.877C4.233 6.7 3.699 8.751 4.153 10.814c.44 1.995 1.778 3.893 3.456 5.572 1.68 1.679 3.577 3.018 5.57 3.459 2.062.456 4.115-.073 5.94-1.885a2.556 2.556 0 0 0 .001-3.861l-1.21-1.21a2.689 2.689 0 0 0-3.802 0l-.617.618a.806.806 0 0 1-1.14 0l-1.854-1.855a.807.807 0 0 1 0-1.14l.618-.62a2.692 2.692 0 0 0 0-3.803l-1.21-1.211A2.555 2.555 0 0 0 7.978 4Z" />
-            </svg>
-            <span class="title-font font-medium">09886866868</span>
+          <h1 class="text-blue-500 text-3xl title-font font-medium mb-3">Contant Us</h1>
+          <div class="flex my-2">
+            <div>
+              <svg aria-hidden="true" class="w-6 h-6 mr-2 text-gray-800 dark:text-white"  xmlns="http://www.w3.org/2000/svg"
+                width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M7.978 4a2.553 2.553 0 0 0-1.926.877C4.233 6.7 3.699 8.751 4.153 10.814c.44 1.995 1.778 3.893 3.456 5.572 1.68 1.679 3.577 3.018 5.57 3.459 2.062.456 4.115-.073 5.94-1.885a2.556 2.556 0 0 0 .001-3.861l-1.21-1.21a2.689 2.689 0 0 0-3.802 0l-.617.618a.806.806 0 0 1-1.14 0l-1.854-1.855a.807.807 0 0 1 0-1.14l.618-.62a2.692 2.692 0 0 0 0-3.803l-1.21-1.211A2.555 2.555 0 0 0 7.978 4Z" />
+              </svg>
+            </div>
+            <span>09886866868</span>
           </div>
-          <div class="flex">
-            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-              width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+          <div class="flex my-2">
+            <div>
+              <svg class="w-6 h-6 mr-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M4 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4Zm10 5a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm0 3a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm0 3a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm-8-5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm1.942 4a3 3 0 0 0-2.847 2.051l-.044.133-.004.012c-.042.126-.055.167-.042.195.006.013.02.023.038.039.032.025.08.064.146.155A1 1 0 0 0 6 17h6a1 1 0 0 0 .811-.415.713.713 0 0 1 .146-.155c.019-.016.031-.026.038-.04.014-.027 0-.068-.042-.194l-.004-.012-.044-.133A3 3 0 0 0 10.059 14H7.942Z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+            <span>Akilabs@gmail.com</span>
+          </div>
+          <div class="flex my-2">
+            <div>
+              <svg class="w-6 h-6 mr-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
               <path fill-rule="evenodd" d="M4 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4Zm10 5a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm0 3a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm0 3a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm-8-5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm1.942 4a3 3 0 0 0-2.847 2.051l-.044.133-.004.012c-.042.126-.055.167-.042.195.006.013.02.023.038.039.032.025.08.064.146.155A1 1 0 0 0 6 17h6a1 1 0 0 0 .811-.415.713.713 0 0 1 .146-.155c.019-.016.031-.026.038-.04.014-.027 0-.068-.042-.194l-.004-.012-.044-.133A3 3 0 0 0 10.059 14H7.942Z" clip-rule="evenodd"/>
-            </svg>
-            <span class="title-font font-medium">Akilabs@gmail.com</span>
-          </div>
-          <div class="flex">
-            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-            width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M4 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4Zm10 5a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm0 3a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm0 3a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm-8-5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm1.942 4a3 3 0 0 0-2.847 2.051l-.044.133-.004.012c-.042.126-.055.167-.042.195.006.013.02.023.038.039.032.025.08.064.146.155A1 1 0 0 0 6 17h6a1 1 0 0 0 .811-.415.713.713 0 0 1 .146-.155c.019-.016.031-.026.038-.04.014-.027 0-.068-.042-.194l-.004-.012-.044-.133A3 3 0 0 0 10.059 14H7.942Z" clip-rule="evenodd"/>
-            </svg>
-            <p>
-              No48, Phum Anlong Kngan,Sangkat Khmounh,<br> Khan Sen Sok Phnom Penh,<br>Cambodia 12103
-            </p>
+              </svg>
+            </div>
+            <span>
+              No48, Phum Anlong Kngan,Sangkat Khmounh, Khan Sen Sok Phnom Penh,Cambodia 12103
+            </span>
           </div>
         </div>
       </div>
@@ -490,4 +520,14 @@
     </div>
   </footer>
 </body>
+<script>
+  AOS.init();
+  const menuBtn = document.getElementById('menu-btn');
+    const menuLinks = document.getElementById('menu-links');
+
+    // Toggle the menu visibility on mobile
+    menuBtn.addEventListener('click', () => {
+      menuLinks.classList.toggle('hidden');
+    }); 
+</script>
 </html>

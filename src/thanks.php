@@ -6,10 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>==================================================</h1>
-    <img src="img/knowle.jpg" style="width: 200px; height:200px;" alt="">
-    <h1>==================================================</h1>
-
-
+    <img src="img/thank.png" style="width: 350px; height:300px;" alt="">
 </body>
 </html>

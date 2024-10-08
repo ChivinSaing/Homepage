@@ -346,7 +346,6 @@
       </div>
     </div>
   </section>
-
   <!-- Section 8 -->
   <section class="text-gray-600 body-font overflow-hidden p-5">
     <div class="container  mx-auto">
@@ -417,7 +416,6 @@
       </div>
     </div>
   </section>
-
   <footer class="body-font overflow-hidden">
     <div class="container px-5 mx-auto flex">
       <div class="lg:w-4/5 mx-auto">

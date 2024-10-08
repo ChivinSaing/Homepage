@@ -13,6 +13,6 @@
             unset($_SESSION['message']); // Clear the message after displaying it
         }
         ?>
-    <!-- <img src="img/thank.png" style="width: 350px; height:300px;" alt=""> -->
+    <img src="img/thank.png" style="width: 350px; height:300px;" alt="">
 </body>
 </html>

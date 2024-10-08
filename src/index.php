@@ -449,7 +449,7 @@ Your Business</h1>
       </div>
       <!-- form -->
       <div class="w-full lg:w-3/5 mx-auto">
-        <form action="sendmail.php" method="post" class="md:p-9 py-4">
+        <form id="myForm"  role="form" method="post" enctype="multipart/form-data" method="post" class="md:p-9 py-4">
           <div class="py-2">
              <label for="username" class="text-gray-600">Username</label>
               <div class="flex rounded-md shadow-sm my-1 ring-1 ring-gray-300 focus-within:ring-4 focus-within:ring-inset ">
@@ -474,7 +474,7 @@ Your Business</h1>
               <input type="text" name="message" id="message" autocomplete="message" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Message*">
             </div>
             </div>
-          <button class="bg-blue-900 text-white px-4 py-2 rounded-md" name="btn_send">Send Email</button>
+          <button type="button" id="sendmail" onclick="sendEmail()" class="bg-blue-900 text-white px-4 py-2 rounded-md" >Send Email</button>
         </form>
       </div>
     </div>
@@ -484,6 +484,45 @@ Your Business</h1>
       <p>© 2024 Akilabs Inc. All rights reserved.</p>
     </footer>
 </body>
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+        function sendEmail() {
+            var username = $("#username");
+            var email = $("#email");
+            var subject = $("#subject");
+            var message = $("#message");
+            if (isNotEmpty(subject) && isNotEmpty(username) && isNotEmpty(email) && isNotEmpty(message)) {
+                $.ajax({
+                   url: 'sendmail.php',
+                   method: 'POST',
+                   dataType: 'json',
+                   data: {
+                    username: username.val(),
+                       email: email.val(),
+                       subject: subject.val(),
+                       message: message.val()
+                   }, success: function (response) {
+                        $('#myForm')[0].reset();
+						$( "input,textarea,select" ).prop( "disabled", false );
+						// .delay(8000).queue(function(n) {
+						//    $(this).hide(); n();
+						// });
+                   }
+                });
+            }
+        }
+
+        function isNotEmpty(caller) {
+            if (caller.val() == "") {
+                caller.css('border', '1px solid red');
+                return false;
+            } else
+                caller.css('border', '');
+
+            return true;
+        }
+    </script>
 <script>
   AOS.init();
   const menuBtn = document.getElementById('menu-btn');

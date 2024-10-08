@@ -8,7 +8,7 @@ include ("PHPMailer/src/SMTP.php");
 include ("PHPMailer/src/Exception.php");
 include ("PHPMailer/src/PHPMailer.php");
 
-if (isset($_POST['btn_send'])) {
+if(isset($_POST['username']) && isset($_POST['email'])){
     $name    = $_POST['username'];
     $email   = $_POST['email'];
     $subject = $_POST['subject'];
@@ -47,9 +47,9 @@ if (isset($_POST['btn_send'])) {
                             <br><br>Best regards,<br>Your Company Name";
 
         $autoReply->send();
-        
+
         $_SESSION['message'] = $message;
-        
+
 
         // Redirect to thanks.php
         header('Location: thanks.php');

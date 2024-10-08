@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
   <link rel="stylesheet" href=".././output.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -14,7 +15,7 @@
   <header class="bg-[#ffffff] shadow-md fixed w-full top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
           <div class="text-lg font-bold text-blue-600">Akilabs Inc.</div>
-          <nav class="flex space-x-6">
+          <nav class="flex md:space-x-6">
             <div class="md:hidden">
               <button id="menu-btn" class="text-blue-600 focus:outline-none">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -37,21 +38,18 @@
   <section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
       <!-- <div> -->
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <div class="lg:w-full mx-auto flex flex-wrap">
           <div class="w-full md:w-3/6"  data-aos="fade-up"
               data-aos-duration="3000">
               <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
               src="img/meeting1-removebg-preview.png">
           </div>
-          
-          <div class="md:w-3/6 w-full lg:pl-3 lg:py-6 mt-6 lg:mt-0 ">
-            <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Innovate & Tranform</h1>
-            <h6 class="text-blue-500  title-font font-normal mb-1">Your Business</h6>
+
+          <div class="md:w-3/6 w-full lg:px-3 lg:py-8 lg:pt-12 lg:mt-0 lg:pr-8">
+            <h1 class="text-blue-500 text-3xl title-font font-medium ">Innovate & Transform<br>
+Your Business</h1>
             <p class="leading-relaxed">
-              Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy
-              chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn.
-              Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over,
-              neutra jean shorts keytar banjo tattooed umami cardigan.
+             We provide web system solutions that support clients' business operations to reach efficiency and effectiveness.
             </p>
           </div>
         </div>
@@ -61,18 +59,15 @@
   <!-- Section 2 -->
   <section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 mx-auto">
-      <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="md:w-3/6 w-full lg:pl-10 lg:py-6 mb-6 lg:mb-0 ">
-          <h1 class="text-blue-500 text-3xl title-font font-medium mb-4">About Akilab Inc.</h1>
+      <div class="lg:w-full mx-auto flex flex-wrap">
+        <div class="md:w-3/6 w-full lg:px-10 lg:pl-12 lg:py-6 mb-6 pb-2 md:pb-0 lg:mb-0 md:order-1 order-2" data-aos="fade-right">
+          <h1 class="text-blue-500 text-3xl title-font font-medium ">About Akilab Inc.</h1>
           <h6 class="text-blue-500">Web Solution Company</h6>
           <p class="leading-relaxed my-4">
-            Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy
-            chia microdosing tilde DIY. XOXO fam inxigo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1
-            seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean.
+          Akilabs is an innovative IT company that offers cutting-edge IT solutions with over ten years of experience.
           </p>
         </div>
-        <div class="md:w-3/6 w-full" data-aos="zoom-out-left">
-          
+        <div class="md:w-3/6 w-full md:order-2  order-1" data-aos="fade-left">
           <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
           src="img/company.jpg">
         </div>
@@ -84,7 +79,7 @@
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-10 mx-auto">
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center" data-aos="zoom-in-up">
           <div
             class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -101,7 +96,7 @@
             </p>
           </div>
         </div>
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in-up">
           <div
             class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -119,7 +114,7 @@
             </p>
           </div>
         </div>
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in-up">
           <div
             class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -142,9 +137,9 @@
 
   <!-- Section 4 -->
   <section class="text-gray-600 body-font">
-    <div class="container px-5 py-5 mx-auto">
+    <div class="container px-5 py-8 mx-auto">
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in-up">
           <div
             class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -160,7 +155,7 @@
             </p>
           </div>
         </div>
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in-up">
           <div
             class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -177,7 +172,7 @@
             </p>
           </div>
         </div>
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in-up">
           <div
             class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -200,39 +195,40 @@
 
   <!-- Section 5 -->
   <section class="text-gray-600 body-font">
-    <div class="container px-5 mx-auto">
-      <div class="text-center mb-5">
-        <h1 class="sm:text-3xl sm:my-10 text-2xl font-medium text-center title-font text-blue-500 mb-4">Massage from Director</h1>
+    <div class="container px-5 mx-auto" >
+      <div class="text-center mb-5" data-aos="zoom-in-up">
+        <h1 class="sm:text-3xl sm:my-2 text-2xl font-medium text-center title-font text-blue-500 ">Massage from Director</h1>
         <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           " Lorem ipsum dolor sit amet, consectetur
           adipisicing elit. Non provident quam inventore tenetur aliquam velit pariatur
           suscipit explicabo, "
         </p>
       </div>
-     
+
     </div>
   </section>
 
   <!-- Section 6 -->
   <section class="text-gray-600 py-10 body-font overflow-hidden">
     <div class="container px-5 mx-auto">
-      <div class="text-center mb-5">
-          <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-500 ">Our Service</h1>
-          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Web Solution Company
-          </p>
-        
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
-          <div class="md:w-2/5 w-full" data-aos="zoom-out-right">
+      <div class="mb-5">
+        <div class="text-center pb-4 md:pb-6">
+            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-500 ">Our Service</h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+              Web Solution Company
+            </p>
+        </div>
+        <div class="lg:w-full mx-auto flex flex-wrap">
+          <div class="md:w-2/5 w-full" data-aos="fade-right">
             <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
             src="img/webdevelopment.png" >
           </div>
-          <div class="md:w-3/5 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <div class="md:w-3/5 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0" data-aos="fade-left">
             <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Website Development</h1>
             <h6 class="title-font font-normal mb-1">We provide Development service of website of landing page for client
             </h6>
             <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 rounded flex h-full items-center">
+              <div class=" rounded flex h-full items-center">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                   class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                   <path d="M22 4L12 14.01l-3-3"></path>
@@ -241,7 +237,7 @@
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 rounded flex h-full items-center">
+              <div class=" rounded flex h-full items-center">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                   class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                   <path d="M22 4L12 14.01l-3-3"></path>
@@ -250,7 +246,7 @@
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 rounded flex h-full items-center">
+              <div class=" rounded flex h-full items-center">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                   class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                   <path d="M22 4L12 14.01l-3-3"></path>
@@ -259,7 +255,7 @@
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
-              <div class="bg-gray-100 rounded flex h-full items-center">
+              <div class=" rounded flex h-full items-center">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                   class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                   <path d="M22 4L12 14.01l-3-3"></path>
@@ -276,8 +272,8 @@
   <!-- Section 7 -->
   <section class="text-gray-600  overflow-hidden">
     <div class="container px-5 mx-auto">
-      <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="md:w-3/5 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+      <div class="lg:w-full mx-auto flex flex-wrap">
+        <div class="md:w-3/5 w-full lg:px-10 lg:pl-12 lg:py-6 mb-6 lg:mb-0"  data-aos="fade-right">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-4">Web System Development</h1>
           <p class="leading-relaxed my-4">
             The role of a web system developer is to design applications. They work closely with project
@@ -285,7 +281,7 @@
             meet the needs of businesses and users.
           </p>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path d="M22 4L12 14.01l-3-3"></path>
@@ -294,7 +290,7 @@
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class="  rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path d="M22 4L12 14.01l-3-3"></path>
@@ -303,7 +299,7 @@
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path d="M22 4L12 14.01l-3-3"></path>
@@ -312,7 +308,7 @@
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path d="M22 4L12 14.01l-3-3"></path>
@@ -321,7 +317,7 @@
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path d="M22 4L12 14.01l-3-3"></path>
@@ -330,7 +326,7 @@
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path d="M22 4L12 14.01l-3-3"></path>
@@ -339,31 +335,30 @@
             </div>
           </div>
         </div>
-        <div data-aos="zoom-out-left" class="md:w-2/5 w-full">
+        <div data-aos="fade-left" class="md:w-2/5 w-full">
             <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
             src="img/websystem.png">
         </div>
       </div>
     </div>
   </section>
+
   <!-- Section 8 -->
   <section class="text-gray-600 body-font overflow-hidden p-5">
     <div class="container  mx-auto">
-      <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="md:w-2/5 w-full"data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="1500">
+      <div class="lg:w-full mx-auto flex flex-wrap">
+        <div class="md:w-2/5 w-full"  data-aos="fade-right">
           <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
           src="img/webdevelopment.png">
         </div>
-        <div class="md:w-3/5 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+        <div class="md:w-3/5 w-full lg:px-10 lg:pl-12 lg:py-6 mt-6 lg:mt-0"  data-aos="fade-left">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Online Service</h1>
           <h6 class="title-font font-normal mb-1">
             Online services have become an integral part of our daily lives, providing a wide range of functions and
             conveniences.
           </h6>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -373,7 +368,7 @@
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -383,7 +378,7 @@
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -393,7 +388,7 @@
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -403,7 +398,7 @@
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
+            <div class=" rounded flex h-full items-center">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                 class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -416,10 +411,10 @@
       </div>
     </div>
   </section>
-  <footer class="body-font overflow-hidden">
-    <div class="container px-5 mx-auto flex">
-      <div class="lg:w-4/5 mx-auto">
-        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+<!-- contact form section -->
+  <section class="body-font py-6 overflow-hidden">
+    <div class="container px-5 mx-auto md:flex ">
+      <div class="w-full lg:w-2/5 g:py-6 lg:px-10 lg:pl-12 mt-6 lg:mt-0" data-aos="fade-up">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-3">Contant Us</h1>
           <div class="flex my-2">
             <div>
@@ -451,27 +446,43 @@
               No48, Phum Anlong Kngan,Sangkat Khmounh, Khan Sen Sok Phnom Penh,Cambodia 12103
             </span>
           </div>
-        </div>
       </div>
-      <div class="lg:w-4/5 mx-auto">
-        <form action="sendmail.php" method="post" class="p-9">
-          <div class="flex rounded-md shadow-sm ring-1 ring-gray-300 focus-within:ring-4 focus-within:ring-inset sm:max-w-md">
-            <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Full Name*">
+      <!-- form -->
+      <div class="w-full lg:w-3/5 mx-auto">
+        <form action="sendmail.php" method="post" class="md:p-9 py-4">
+          <div class="py-2">
+             <label for="username" class="text-gray-600">Username</label>
+              <div class="flex rounded-md shadow-sm my-1 ring-1 ring-gray-300 focus-within:ring-4 focus-within:ring-inset ">
+                  <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Full Name*">
+              </div>
           </div>
-          <div class="flex rounded-md shadow-sm ring-1 my-3 ring-gray-300 focus-within:ring-4 focus-within:ring-inset  sm:max-w-md">
-            <input type="email" name="email" id="email" autocomplete="email" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Email*">
+          <div class="py-2">
+            <label for="email" class="text-gray-600">Email</label>
+            <div class="flex rounded-md shadow-sm ring-1 my-1 ring-gray-300 focus-within:ring-4 focus-within:ring-inset ">
+              <input type="email" name="email" id="email" autocomplete="email" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Email*">
+            </div>
           </div>
-          <div class="flex rounded-md shadow-sm ring-1 my-3 ring-gray-300 focus-within:ring-4 focus-within:ring-inset  sm:max-w-md">
-            <input type="text" name="subject" id="subject" autocomplete="subject" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Subject*">
+          <div class="py-2">
+            <label for="subject" class="text-gray-600">Subject</label>
+            <div class="flex rounded-md shadow-sm ring-1 my-1 ring-gray-300 focus-within:ring-4 focus-within:ring-inset ">
+             <input type="text" name="subject" id="subject" autocomplete="subject" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Subject*">
+            </div>
           </div>
-          <div class="flex rounded-md shadow-sm ring-1 my-3 ring-gray-300 focus-within:ring-4 focus-within:ring-inset  sm:max-w-md">
-            <input type="text" name="message" id="message" autocomplete="message" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Message*">
-          </div>
-          <button class="bg-blue-900 text-white p-4 rounded-md" name="btn_send">Send Email</button>
+          <div class="py-2">
+            <label for="message" class="text-gray-600">Message</label>
+            <div class="flex rounded-md shadow-sm ring-1 my-1 ring-gray-300 focus-within:ring-4 focus-within:ring-inset ">
+              <input type="text" name="message" id="message" autocomplete="message" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Message*">
+            </div>
+            </div>
+          <button class="bg-blue-900 text-white px-4 py-2 rounded-md" name="btn_send">Send Email</button>
         </form>
       </div>
     </div>
-  </footer>
+  </section>
+  <!-- footer -->
+  <footer class="py-6 bg-blue-600 text-white text-center">
+      <p>© 2024 Akilabs Inc. All rights reserved.</p>
+    </footer>
 </body>
 <script>
   AOS.init();
@@ -481,6 +492,6 @@
     // Toggle the menu visibility on mobile
     menuBtn.addEventListener('click', () => {
       menuLinks.classList.toggle('hidden');
-    }); 
+    });
 </script>
 </html>

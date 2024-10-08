@@ -10,9 +10,8 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
-
 <body>
-    <header class="bg-[#ffffff] shadow-md fixed w-full top-0 z-50">
+  <header class="bg-[#ffffff] shadow-md fixed w-full top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
           <div class="text-lg font-bold text-blue-600">Akilabs Inc.</div>
           <nav class="flex space-x-6">
@@ -29,7 +28,7 @@
               <a href="#" class="text-gray-600 hover:text-blue-600">Services</a>
               <a href="#" class="text-gray-600 hover:text-blue-600">Products</a>
               <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
-              <a href="#" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-500">Contact Us</a>
+              <a href="#" class="bg-blue-600 text-white py-2 px-4 rounded animate hover:bg-blue-500">Contact Us</a>
             </div>
           </nav>
         </div>
@@ -39,13 +38,13 @@
     <div class="container px-5 py-24 mx-auto">
       <!-- <div> -->
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
-          <div class="lg:w-1/2 w-full"  data-aos="fade-up"
+          <div class="w-full md:w-3/6"  data-aos="fade-up"
               data-aos-duration="3000">
               <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
               src="img/meeting1-removebg-preview.png">
           </div>
           
-          <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <div class="md:w-3/6 w-full lg:pl-3 lg:py-6 mt-6 lg:mt-0 ">
             <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Innovate & Tranform</h1>
             <h6 class="text-blue-500  title-font font-normal mb-1">Your Business</h6>
             <p class="leading-relaxed">
@@ -63,7 +62,7 @@
   <section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+        <div class="md:w-3/6 w-full lg:pl-10 lg:py-6 mb-6 lg:mb-0 ">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-4">About Akilab Inc.</h1>
           <h6 class="text-blue-500">Web Solution Company</h6>
           <p class="leading-relaxed my-4">
@@ -72,7 +71,8 @@
             seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean.
           </p>
         </div>
-        <div class="lg:w-1/2 w-full" data-aos="fade-down-left">
+        <div class="md:w-3/6 w-full" data-aos="zoom-out-left">
+          
           <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
           src="img/company.jpg">
         </div>
@@ -202,7 +202,7 @@
   <section class="text-gray-600 body-font">
     <div class="container px-5 mx-auto">
       <div class="text-center mb-5">
-        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-500 mb-4">Massage from Director</h1>
+        <h1 class="sm:text-3xl sm:my-10 text-2xl font-medium text-center title-font text-blue-500 mb-4">Massage from Director</h1>
         <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           " Lorem ipsum dolor sit amet, consectetur
           adipisicing elit. Non provident quam inventore tenetur aliquam velit pariatur
@@ -216,55 +216,56 @@
   <!-- Section 6 -->
   <section class="text-gray-600 py-10 body-font overflow-hidden">
     <div class="container px-5 mx-auto">
-    <div class="text-center mb-5">
-        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-500 ">Our Service</h1>
-        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          Web Solution Company
-        </p>
-      </div>
-      <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="lg:w-1/2 w-full" data-aos="zoom-out-right">
-          <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
-          src="img/webdevelopment.png" >
-        </div>
-        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-          <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Website Development</h1>
-          <h6 class="title-font font-normal mb-1">We provide Development service of website of landing page for client
-          </h6>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                <path d="M22 4L12 14.01l-3-3"></path>
-              </svg>
-              <span class="title-font font-medium">Planing</span>
-            </div>
+      <div class="text-center mb-5">
+          <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-500 ">Our Service</h1>
+          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            Web Solution Company
+          </p>
+        
+        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+          <div class="md:w-2/5 w-full" data-aos="zoom-out-right">
+            <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
+            src="img/webdevelopment.png" >
           </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                <path d="M22 4L12 14.01l-3-3"></path>
-              </svg>
-              <span class="title-font font-medium">Testing and Debugging</span>
+          <div class="md:w-3/5 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Website Development</h1>
+            <h6 class="title-font font-normal mb-1">We provide Development service of website of landing page for client
+            </h6>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Planing</span>
+              </div>
             </div>
-          </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                <path d="M22 4L12 14.01l-3-3"></path>
-              </svg>
-              <span class="title-font font-medium">Maintenance and Updates</span>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Testing and Debugging</span>
+              </div>
             </div>
-          </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex h-full items-center">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-                class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                <path d="M22 4L12 14.01l-3-3"></path>
-              </svg>
-              <span class="title-font font-medium">Collaboration</span>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Maintenance and Updates</span>
+              </div>
+            </div>
+            <div class="p-2 sm:w-1/2 w-full">
+              <div class="bg-gray-100 rounded flex h-full items-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+                <span class="title-font font-medium">Collaboration</span>
+              </div>
             </div>
           </div>
         </div>
@@ -276,7 +277,7 @@
   <section class="text-gray-600  overflow-hidden">
     <div class="container px-5 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+        <div class="md:w-3/5 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-4">Web System Development</h1>
           <p class="leading-relaxed my-4">
             The role of a web system developer is to design applications. They work closely with project
@@ -338,7 +339,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="zoom-out-left" class="lg:w-1/2 w-full">
+        <div data-aos="zoom-out-left" class="md:w-2/5 w-full">
             <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
             src="img/websystem.png">
         </div>
@@ -347,16 +348,16 @@
   </section>
 
   <!-- Section 8 -->
-  <section class="text-gray-600 body-font overflow-hidden">
+  <section class="text-gray-600 body-font overflow-hidden p-5">
     <div class="container  mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="lg:w-1/2 w-full"data-aos="fade-down"
+        <div class="md:w-2/5 w-full"data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1500">
           <img alt="ecommerce" class="lg:h-auto h-64 object-cover object-center rounded"
           src="img/webdevelopment.png">
         </div>
-        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+        <div class="md:w-3/5 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
           <h1 class="text-blue-500 text-3xl title-font font-medium mb-1">Online Service</h1>
           <h6 class="title-font font-normal mb-1">
             Online services have become an integral part of our daily lives, providing a wide range of functions and
